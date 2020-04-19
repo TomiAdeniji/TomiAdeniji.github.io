@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Raleway&display=swap');
+*{
+ margin: 0;
+ padding: 0;   
+}
+
+body{
+    font-family: 'Poppins';
+}
+.info-card{
+    display: flex; 
+    justify-content: center;     
+}
+.info-content{
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+    margin: 30px 30px;
+    box-shadow: 1px -1px 2px 1px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.info-image img{
+    max-width: 300px;
+    margin: 30px 30px;
+    width: 100%;
+    border-radius: 5px; 
+  }
+  
+  
+  a{
+      text-decoration: none;
+  }
+  .btn-contact{
+    display: block;
+    background-color:#a05555;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+  .btn-contact:hover{
+      background-color: #ad7373;
+  }
+  #contact-form{
+    max-width: 400px;  
+    background-color:#ad7373;
+    color: #ffffff;
+    padding: 25px 25px;
+    margin: 30px auto;
+    border-radius: 10px;
+
+}
+
+.form-wrap .form-group{
+margin-top: 25px;
+}
+.form-wrap .form-group label{
+    display: block;
+    color: color;
+    font-size: 16px;
+}
+.form-wrap .form-messagebox label{
+    display: block;
+    color: color;
+    font-size: 16px;
+}
+.form-wrap .form-group input{
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 15px;
+    background-color: #edf2f7;
+  }
+.form-wrap .form-group input::placeholder{
+  color: #c6c6c6;
+}
+.form-messagebox{
+    margin-top: 25px;
+}
+.form-wrap .form-messagebox input{
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    height: 100px;
+    background-color: #edf2f7;
+  }
+  .form-wrap .form-messagebox input::placeholder{
+    color: #c6c6c6;
+  }
+  .form-wrap button{
+    display: block;
+    background-color: #ffffff;
+    color:#a05555;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+  @media only screen and (max-width: 768px){
+      .info-card{
+          display: flex;
+          flex-direction: column;
+      }
+  }
+  
